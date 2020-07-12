@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_text">10sp</dimen>
+    <dimen name="medium_text">12sp</dimen>
+    <dimen name="intermediate_text">16sp</dimen>
+    <dimen name="high_text">20sp</dimen>
+    <dimen name="ultra_text">26sp</dimen>
+
+    <dimen name="pattern_margin">16dp</dimen>
+    <dimen name="medium_margin">8dp</dimen>
+    <dimen name="small_margin">3dp</dimen>
+    <dimen name="ultra_margin">36dp</dimen>
+</resources>

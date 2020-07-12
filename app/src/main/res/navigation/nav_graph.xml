@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home_fragment">
+
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="com.example.globo_challenger.view.home.HomeFragment"
+        android:label="O GLOBO"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home_fragment_to_detail_fragment"
+            app:destination="@id/detail_fragment"
+            app:enterAnim="@anim/fragment_fade_enter"
+            app:exitAnim="@anim/fragment_fade_exit"
+            app:popEnterAnim="@anim/fragment_fade_exit"
+            app:popExitAnim="@anim/fragment_fade_enter"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/detail_fragment"
+        android:name="com.example.globo_challenger.view.DetailFragment"
+        tools:layout="@layout/fragment_detail" >
+
+        <argument
+            android:name="notice"
+            app:argType="com.example.globo_challenger.model.Content" />
+    </fragment>
+</navigation>

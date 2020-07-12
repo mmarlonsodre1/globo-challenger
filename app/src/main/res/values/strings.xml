@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">globo-challenger</string>
+    <string name="detail_image_legend">%s.Foto: %s</string>
+    <string name="shared_notice">Compartilhar Notícia</string>
+    <string name="por">POR</string>
+    <string name="notice_image">Imagem da notícia</string>
+    <string name="try_again">Tentar Novamente</string>
+    <string name="loading_error_text">Erro ao carregar</string>
+</resources>
